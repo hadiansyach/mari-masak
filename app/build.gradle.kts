@@ -42,8 +42,8 @@ android {
 dependencies {
 
     // dependensi baru
-    implementation("androidx.navigation:navigation-fragment-ktx:2.7.1")
-    implementation("androidx.navigation:navigation-ui-ktx:2.7.1")
+    implementation("androidx.navigation:navigation-fragment-ktx:2.4.2")
+    implementation("androidx.navigation:navigation-ui-ktx:2.4.2")
     implementation("com.mikhaellopez:circularimageview:4.3.1")
 
     // dependensi bawaan
