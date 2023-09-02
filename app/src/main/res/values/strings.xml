@@ -44,6 +44,10 @@
         <item>@drawable/oseng_kacang_panjang</item>
         <item>@drawable/gulai_udang</item>
     </integer-array>
-    
+
+    <!--  About  -->
     <string name="about">About</string>
+    <string name="nama">Ihsan Hadiansyach</string>
+    <string name="email">ihadiansyach@gmail.com</string>
+
 </resources>
