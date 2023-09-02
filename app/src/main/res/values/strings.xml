@@ -1,3 +1,47 @@
 <resources>
     <string name="app_name">Mari Masak</string>
+
+    <!--  label  -->
+    <string name="nama_makanan">Nama Makanan</string>
+    <string name="bahan_bahan">Bahan-bahan</string>
+
+    <!-- array makanan -->
+    <string-array name="data_name">
+        <item>Nasi Goreng</item>
+        <item>Rendang</item>
+        <item>Soto</item>
+        <item>Gulai Ayam</item>
+        <item>Sate Ayam</item>
+        <item>Bakso</item>
+        <item>Gado-gado</item>
+        <item>Bakwan</item>
+        <item>Oseng Kacang Panjang</item>
+        <item>Gulai Udang</item>
+    </string-array>
+
+    <string-array name="data_bahan">
+        <item>- 2 butir telur\n- 2 sdm minyak goreng\n- 3 buah tomat ceri (potong sesuai selera)\n- 1 piring nasi\n- 1 batang daun bawang (cincang kasar)\n- Kerupuk (secukupnya)\n- 1 sdm margarin</item>
+        <item>- 500 gr daging\n- 1 batang serai geprek\n- 3 lembar daun jeruk\n- 2 lembar daun salam\n- 1 ruas lengkuas geprek\n- 2 cm kayu manis\n- 1 sdt gula merah\n- 1 sdt kaldu sapi dan garam\n- 1/2 sdt jintan bubuk\n- 1/2 sdt merica bubuk\n- Jeruk nipis\n- 500 ml santan dari 1/2 kelapa</item>
+        <item>- 1/2 kilo gram ayam\n- 1,5 liter air bersih\n- Lembar daun salam\n- 2 Batang serai\n- 1 Ruas lengkaus\n- Minyak goreng secukupnya saja\n- Garam secukupnya saja\n- Gula secukupnya saja\n- Penyedap rasa secukupnya\n- 8 siung bawang merah\n- 6 siung bawang putih\n- 1 ruas kunyit\n- 1 ruas jahe\n- 3 buah kemiri\n- Merica secukupnya\n- 2 ikat so’un (rendam dengan air panas dan tiriskan)\n- 1/2 buah kubis (iris tipis-tipis)\n- 1 bungkus taoge (siram dengan air panas dan tiriskan)\n- 1 batang daun daun bawang\n- Kerupuk merah secukupnya\n- Sambal kacang/cabai uleg\n- Kecap secukupny\n- 2 lembar daun salam\n- 1 ruas lengkuas yang digeprek</item>
+        <item>- 1/2 ekor ayam\n- 1 buah jeruk nipis\n- 1 batang serai geprek\n- 2 lembar daun salam\n- 2 lembar daun jeruk\n- 200 ml santan encer\n- 200 ml santan kental\n- air matang secukupnya\n- secukupnya garam dan kaldu bubuk.</item>
+        <item>- 500 gram daging ayam dengan atau tanpa lemak, potong dadu\n- 20 tusuk sate</item>
+        <item>- Daging ayam 1 kg, tanpa tulang, giling\n- Tepung kanji 50 g\n- Telur 1 butir\n- Lada bubuk 2 sdt\n- Garam 1 sdt\n- Bawang putih 4 siung, haluskan\n- Bawang merah goreng 2 sdm\n- Es batu 40 g, hancurkan\n- Air 2 L</item>
+        <item>- 50 gram taoge, buang akarnya, seduh dengan air mendidih, langsung tiriskan\n- 150 gram sayur kangkung, potong-potong, rebus, langsung tiriskan\n- 150 gram sayur bayam, petik daunnya, rebus, langsung tiriskan\n- 200 gram sayur pare, buang bijinya, kemudian direbus\n- 1 buah tahu (8x8 cm) kemudian digoreng\n- 1 potong tempe (8x8 cm) kemudian digoreng\n- 1-2 sendok makan bawang goreng\n- 3 butir telur rebus, kupas kulitnya emping dan kerupuk goreng</item>
+        <item>- 1 bonggol jagung manis\n- 5 biji cabai merah keriting\n- 7 sdm terigu\n- Daun bawang secukupnya\n- Air</item>
+        <item>- 12 buah kacang panjang.\n- 1 buah tempe.\n- 2 papan pete dikupas kulit.\n- 5 bawang putih diiris.\n- 4 bawang merah diiris.\n- 5 buah cabai merah diiris.\n- 1 ruas lengkuas digeprek.\n- 1 ruas jahe digeprek.\n- 1 serai digeprek.\n- 2 daun salam.\n- 2 daun jeruk.\n- 2 sdm kecap manis.\n- 1 sdm saus tiram.\n- 1 sdt gula pasir.\n- 1/2 sdt garam.\n- Air putih.\n- Minyak goreng.</item>
+        <item>- 250 gr udang\n- Kacang panjang secukupnya\n- Tempe secukupnya\n- 1 papan pete\n- 2 keping asam kandis\n- 2 lembar daun salam\n- 1 lembar daun kunyit\n- 1 batang serai, memarkan\n- 1 ruas lengkuas, geprek\n- 3 lembar daun kunyit\n- 1 saset santan kara ukuran kecil (65ml), boleh ganti santan fresh sesuai selera\n- air secukupnya (kurang lebih 400-500 ml)\n- kaldu bubuk secukupnya (boleh tidak pakai)\n- rawit utuh jika suka</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/nasi_goreng</item>
+        <item>@drawable/rendang</item>
+        <item>@drawable/soto</item>
+        <item>@drawable/gulai_ayam</item>
+        <item>@drawable/sate_ayam</item>
+        <item>@drawable/bakso</item>
+        <item>@drawable/gado_gado</item>
+        <item>@drawable/bakwan</item>
+        <item>@drawable/oseng_kacang_panjang</item>
+        <item>@drawable/gulai_udang</item>
+    </integer-array>
 </resources>
