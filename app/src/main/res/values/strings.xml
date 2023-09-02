@@ -44,4 +44,6 @@
         <item>@drawable/oseng_kacang_panjang</item>
         <item>@drawable/gulai_udang</item>
     </integer-array>
+    
+    <string name="about">About</string>
 </resources>
