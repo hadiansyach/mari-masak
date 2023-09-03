@@ -64,7 +64,9 @@ class HomepageFragment : Fragment() {
             val resep = Resep(
                 dataName[position],
                 dataBahan[position],
-                dataPhoto.getResourceId(position, -1)
+                dataPhoto.getResourceId(position, -1),
+                resources.getStringArray(R.array.data_bumbu_halus)[position],
+                resources.getStringArray(R.array.data_cara_masak)[position]
             )
             listResep.add(resep)
         }

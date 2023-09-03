@@ -13,11 +13,13 @@
     <fragment
         android:id="@+id/homepageFragment"
         android:name="com.san.marimasak.ui.homepage.HomepageFragment"
-        android:label="List Masakan"
+        android:label="Mau Masak Apa?"
         tools:layout="@layout/fragment_homepage"
         >
         <action
             android:id="@+id/action_homepageFragment_to_fragmentAbout"
             app:destination="@id/fragmentAbout" />
+        <action
+            android:id="@+id/action_homepageFragment_to_detailResepFragment"
     </fragment>
-</navigation>
+   </navigation>
