@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ui.detail_resep.DetailResepFragment">
+
+        <ImageView
+            android:id="@+id/iv_masakan"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="6dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="@+id/tv_nama_masakan"
+            app:layout_constraintStart_toStartOf="@+id/tv_nama_masakan"
+            app:layout_constraintTop_toBottomOf="@+id/tv_nama_masakan"
+            app:layout_goneMarginTop="8dp"
+            tools:src="@drawable/soto" />
+
+        <TextView
+            android:id="@+id/tv_nama_masakan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Soto babat" />
+
+        <TextView
+            android:id="@+id/tv_label_bahan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/bahan_bahan"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_masakan" />
+
+        <TextView
+            android:id="@+id/tv_bahan_masakan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textAlignment="textStart"
+            app:layout_constraintEnd_toEndOf="@+id/tv_label_bahan"
+            app:layout_constraintStart_toStartOf="@+id/tv_label_bahan"
+            app:layout_constraintTop_toBottomOf="@+id/tv_label_bahan"
+            tools:text="- 1 Siung bawang putih" />
+
+        <TextView
+            android:id="@+id/tv_label_bumbu_halus"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/tv_bahan_masakan"
+            app:layout_constraintStart_toStartOf="@+id/tv_bahan_masakan"
+            app:layout_constraintTop_toBottomOf="@id/tv_bahan_masakan"
+            android:text="@string/bumbu_halus" />
+
+        <TextView
+            android:id="@+id/tv_bumbu_halus"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="@id/tv_label_bumbu_halus"
+            app:layout_constraintStart_toStartOf="@id/tv_label_bumbu_halus"
+            app:layout_constraintTop_toBottomOf="@id/tv_label_bumbu_halus"
+            tools:text="- 2 siung bawang putih" />
+
+        <TextView
+            android:id="@+id/tv_label_cara_masak"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:textAlignment="textStart"
+            app:layout_constraintEnd_toEndOf="@id/tv_bumbu_halus"
+            app:layout_constraintStart_toStartOf="@id/tv_bumbu_halus"
+            app:layout_constraintTop_toBottomOf="@id/tv_bumbu_halus"
+            android:text="@string/cara_masak"/>
+
+        <TextView
+            android:id="@+id/tv_cara_masak"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tv_label_cara_masak"
+            app:layout_constraintStart_toStartOf="@id/tv_label_cara_masak"
+            app:layout_constraintEnd_toEndOf="@id/tv_label_cara_masak"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="4dp"
+            tools:text="1. Cuci bersih daging, potong sesuai selera, beri perasan jeruk nipis, lalu cuci lagi\n2. Haluskan bumbu, lalu tumis bumbu halus dengan serai, daun jeruk, daun salam, kayu manis dan lengkuas sampai matang"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
