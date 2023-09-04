@@ -10,17 +10,25 @@
         android:layout_height="wrap_content"
         tools:context=".ui.detail_resep.DetailResepFragment">
 
-        <ImageView
-            android:id="@+id/iv_masakan"
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_iv_masakan"
             android:layout_width="0dp"
             android:layout_height="200dp"
-            android:layout_marginTop="6dp"
-            android:scaleType="centerCrop"
+            android:layout_marginTop="8dp"
+            app:cardCornerRadius="8dp"
             app:layout_constraintEnd_toEndOf="@+id/tv_nama_masakan"
             app:layout_constraintStart_toStartOf="@+id/tv_nama_masakan"
             app:layout_constraintTop_toBottomOf="@+id/tv_nama_masakan"
-            app:layout_goneMarginTop="8dp"
-            tools:src="@drawable/soto" />
+            app:strokeWidth="0dp">
+
+            <ImageView
+                android:id="@+id/iv_masakan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="6dp"
+                android:scaleType="centerCrop"
+                app:layout_goneMarginTop="8dp" />
+        </com.google.android.material.card.MaterialCardView>
 
         <TextView
             android:id="@+id/tv_nama_masakan"
@@ -30,7 +38,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
             android:textAlignment="center"
-            android:textSize="18sp"
+            android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -46,10 +54,11 @@
             android:layout_marginEnd="16dp"
             android:text="@string/bahan_bahan"
             android:textAlignment="textStart"
+            android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/iv_masakan" />
+            app:layout_constraintTop_toBottomOf="@+id/card_iv_masakan" />
 
         <TextView
             android:id="@+id/tv_bahan_masakan"
@@ -57,6 +66,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:textAlignment="textStart"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="@+id/tv_label_bahan"
             app:layout_constraintStart_toStartOf="@+id/tv_label_bahan"
             app:layout_constraintTop_toBottomOf="@+id/tv_label_bahan"
@@ -67,18 +77,20 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            android:text="@string/bumbu_halus"
             android:textAlignment="textStart"
+            android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/tv_bahan_masakan"
             app:layout_constraintStart_toStartOf="@+id/tv_bahan_masakan"
-            app:layout_constraintTop_toBottomOf="@id/tv_bahan_masakan"
-            android:text="@string/bumbu_halus" />
+            app:layout_constraintTop_toBottomOf="@id/tv_bahan_masakan" />
 
         <TextView
             android:id="@+id/tv_bumbu_halus"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="@id/tv_label_bumbu_halus"
             app:layout_constraintStart_toStartOf="@id/tv_label_bumbu_halus"
             app:layout_constraintTop_toBottomOf="@id/tv_label_bumbu_halus"
@@ -89,25 +101,26 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:textStyle="bold"
+            android:text="@string/cara_masak"
             android:textAlignment="textStart"
+            android:textSize="16sp"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@id/tv_bumbu_halus"
             app:layout_constraintStart_toStartOf="@id/tv_bumbu_halus"
-            app:layout_constraintTop_toBottomOf="@id/tv_bumbu_halus"
-            android:text="@string/cara_masak"/>
+            app:layout_constraintTop_toBottomOf="@id/tv_bumbu_halus" />
 
         <TextView
             android:id="@+id/tv_cara_masak"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/tv_label_cara_masak"
-            app:layout_constraintStart_toStartOf="@id/tv_label_cara_masak"
-            app:layout_constraintEnd_toEndOf="@id/tv_label_cara_masak"
-            app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginBottom="8dp"
             android:layout_marginTop="4dp"
-            tools:text="1. Cuci bersih daging, potong sesuai selera, beri perasan jeruk nipis, lalu cuci lagi\n2. Haluskan bumbu, lalu tumis bumbu halus dengan serai, daun jeruk, daun salam, kayu manis dan lengkuas sampai matang"
-            />
+            android:layout_marginBottom="8dp"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/tv_label_cara_masak"
+            app:layout_constraintStart_toStartOf="@id/tv_label_cara_masak"
+            app:layout_constraintTop_toBottomOf="@id/tv_label_cara_masak"
+            tools:text="1. Cuci bersih daging, potong sesuai selera, beri perasan jeruk nipis, lalu cuci lagi\n2. Haluskan bumbu, lalu tumis bumbu halus dengan serai, daun jeruk, daun salam, kayu manis dan lengkuas sampai matang" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

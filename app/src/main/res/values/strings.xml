@@ -57,7 +57,7 @@
         <item>Ga ada</item>
         <item>- 15 rawit ijo/sesuai selera\n- 3 siung bawang putih\n- 8-10 siung bawang merah\n- 1 ruas jahe\n- 2 butir kemiri\n- 1 cm kunyit\n- garam secukupnya</item>
     </string-array>
-    
+
     <string-array name="data_cara_masak">
         <item>1. Panaskan margarin sampai leleh, masak telur orak-arik lalu sisihkan.\n2. Tambahkan minyak goreng dan bumbu halus, aduk rata, masak hingga harum.\n3. Masukkan nasi ke dalam adonan telur dan bumbu, aduk rata. Tambahkan daun bawang, aduk kembali.\n4. Sajikan bersama topping tomat ceri dan kerupuk juga sedikit hiasan daun seledri juga irisan cabai merah.</item>
         <item>1. Cuci bersih daging, potong sesuai selera, beri perasan jeruk nipis, lalu cuci lagi\n2. Haluskan bumbu, lalu tumis bumbu halus dengan serai, daun jeruk, daun salam, kayu manis dan lengkuas sampai matang\n3. Masukkan daging, aduk rata, lalu masukkan santan. Masak dengan api kecil sambil sesekali diaduk.\n4. Kemudian masukkan garam, kaldu, jintan, merica dan gula merah, diamkan hingga bumbu meresap dan airnya menyusut.\n5. Koreksi rasa, angkat dan hidangkan.</item>
@@ -74,9 +74,13 @@
     <!--  About  -->
     <string name="about">About</string>
     <string name="nama">Ihsan Hadiansyach</string>
-    <string name="email">ihadiansyach@gmail.com</string>
+    <string name="email">hadiansyach44@gmail.com</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="bumbu_halus">Bumbu halus:</string>
     <string name="cara_masak">Cara masak:</string>
+
+    <!--  Share  -->
+    <string name="share_template">Hari ini saya mau masak: %s</string>
+    <string name="share">Share</string>
 
 </resources>

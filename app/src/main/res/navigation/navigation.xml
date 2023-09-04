@@ -20,6 +20,6 @@
             android:id="@+id/action_homepageFragment_to_fragmentAbout"
             app:destination="@id/fragmentAbout" />
         <action
-            android:id="@+id/action_homepageFragment_to_detailResepFragment"
+            android:id="@+id/action_homepageFragment_to_detailResepFragment"/>
     </fragment>
    </navigation>
